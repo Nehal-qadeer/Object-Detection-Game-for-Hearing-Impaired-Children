@@ -28,3 +28,14 @@ Unlike standard detection tools, this is built as a **game** where the AI:
 * **Step 1:** The child points the camera at an object.
 * **Step 2:** The AI detects the object from its saved library of trained models.
 * **Step 3:** The game "captures" the object and displays the name in a large, easy-to-read font.
+
+## ⚙️ How to Use this Repository
+This repository contains the core logic and UI for the Object Detection Game. 
+
+* **Core Logic:** Located in the `/Object-Detector` folder.
+* **UI Components:** Located in the `/frontend` folder.
+* **Models:** The trained YOLOv8 and OpenVINO files are stored in the models directory.
+
+**Requirements:**
+To run this project, you need a Python environment with the following libraries installed:
+`pip install opencv-python ultralytics openvino pyqt6`
